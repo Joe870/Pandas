@@ -159,4 +159,4 @@ def excel(input_paths, output_path):
 
     cbs_df
 
-    cbs_df.to_excel(output_path, index=False)
+    cbs_df.to_excel(PERIOD_DIR / f"CBS_export_{PERIOD}.xslx", index=False)
