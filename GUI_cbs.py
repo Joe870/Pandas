@@ -2,7 +2,7 @@ import tkinter.filedialog as filedialog
 import tkinter as tk
 import subprocess
 import openpyxl
-import lxml 
+import lxml  
 from excel_verwerking import excel
 
 master = tk.Tk()
